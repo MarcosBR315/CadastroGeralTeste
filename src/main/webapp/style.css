@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 10px;
+	border: 2px solid black;
+}
+
+main {
+	padding: 10px;
+	border: 2px solid black;
+}
+
+form {
+	margin: 20px;
+}
+
+section {
+	display: flex;
+	align-items: center;
+}
+
+section label {
+	width: 60px;
+	padding: 5px 0 5px 0;
+}
+
+input {
+	background-color: white;
+}
+
+section button {
+	background-color: white;
+	margin-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	
+}
