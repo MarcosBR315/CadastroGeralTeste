@@ -1,16 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 <meta charset="ISO-8859-1">
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/style.css" />
+<link rel="stylesheet" type="text/css" href="./Styles/style.css" />
 <title>Cadastro Geral</title>
 </head>
 <body>
 	<header>
+		<img src="./Pictures/atricon branco horizontal.svg"/>
 		<h1>Cadastro Geral</h1>
-		<h2>Atricon</h2>
 	</header>
 	<main>
 	<form action="login" method="post">
