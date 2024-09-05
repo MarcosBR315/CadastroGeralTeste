@@ -13,7 +13,17 @@
 		<h1>Cadastro Geral</h1>
 	</header>
 	<main>
-	<form action="login" method="post">
+	
+	<%
+        String error = request.getParameter("erroLogin");
+        if (error != null && error.equals("true")) {
+    %>
+        <p class="erro">Usuário ou senha incorretos. Tente novamente.</p>
+    <%
+        }
+    %>
+	
+	<form action="AuthLogin" method="post">
 		<section class="UsuarioSection">
 			<label class="LabelUs" for="usuario">Usuário:</label>
 			<input type="text" name="usuario" id="usuario" placeholder="usuario@123">
