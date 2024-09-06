@@ -21,7 +21,7 @@ public class AuthLogin extends HttpServlet {
 		String senha = request.getParameter("senha");
 		
 		if (usuarioCorreto.equals(usuario) && senhaCorreta.equals(senha)) {
-			response.sendRedirect("./Sistema/sistema.jsp");
+			response.sendRedirect("./Pages/Sistema/sistema.jsp");
 		} else {
 			response.sendRedirect("index.jsp?erroLogin=true");
 		}

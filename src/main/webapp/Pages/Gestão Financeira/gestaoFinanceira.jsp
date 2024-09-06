@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header>
-		<h1>Bem-vindo (a) ao Sistema Cadastro Geral</h1>
+		<h1>Gestão Financeira</h1>
 	</header>
 </body>
 </html>
